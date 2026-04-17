@@ -112,7 +112,6 @@ Please provide the complete code for each of the three files. Use Markdown code 
 ## Compliment & Joke Generator - Part 2
 
 #### Lesson Summary
-
 - Creating the project folder (local repository);
 - Generating the first draft of the website code;
 - Fixing the missing CSS bug by structuring all code into a single HTML file;
@@ -122,6 +121,19 @@ Please provide the complete code for each of the three files. Use Markdown code 
 - Creating the GitHub project repository;
 - Committing the current state of the website code;
 - Deploying the website to GitHub Pages.
+
+---
+
+## Compliment & Joke Generator - Part 3
+
+#### Lesson Summary
+- Reformatting the compliments box as a playing card;
+- Moving the compliment generator button outside the compliments box;
+- Adding jokes and a joke generator button to the website;
+- Increasing the visual appeal of the background;
+- Redesigning the style of the playing card;
+- Revising compliments to be more funny;
+- Further tuning the background.
 
 ---
 
