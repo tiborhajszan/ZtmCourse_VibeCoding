@@ -24,7 +24,7 @@ h4 {
   line-height: 1.4;
 }
 hr {
-  margin: 20px 0 20px 0;
+  margin: 20px 0;
 }
 p {
   margin: 0 0 10px 0;
@@ -32,11 +32,10 @@ p {
   font-size: 14px;
   line-height: 1.4;
 }
+a {
+  font-weight: bold;
+}
 </style>
-
-#### Heading 4
-- ittem 1
-- ittem 2
 
 # The Vibe Coding Bootcamp: Become an AI-Augmented Developer
 # Module 07 | Compliment & Joke Generator (Gemini)
@@ -45,10 +44,9 @@ p {
 
 ## Compliment & Joke Generator - Prompt Creation
 
-The lesson works with **Google Gemini** and the **Gemini 2.5 Pro LLM** to define objectives, audience, features, and design for a compliment and joke generator website. This information is then used as context by the AI assistant to write the actual prompt that generates code for the website.
+The instructor works with the **Gemini 2.5 Pro LLM** and (1) prompts the AI assistant to define objectives, audience, features, and design for a compliment and joke generator website; (2) feeds this information to the AI assistant to write the actual prompt that generates code for the website.
 
-* **GitHub Repository:** Compliment Generator
-* **Source:** Complete project code by ZtM.
+<a>[GitHub Repository > Complete project code by ZtM](https://github.com/JacintoDesign/compliment-joke-generator)</a>
 
 ---
 
@@ -127,13 +125,17 @@ Please provide the complete code for each of the three files. Use Markdown code 
 ## Compliment & Joke Generator - Part 3
 
 #### Lesson Summary
-- Reformatting the compliments box as a playing card;
+- Reformatting the compliments box to look like a playing card;
+- Revising compliments to be more funny;
 - Moving the compliment generator button outside the compliments box;
 - Adding jokes and a joke generator button to the website;
 - Increasing the visual appeal of the background;
-- Redesigning the style of the playing card;
-- Revising compliments to be more funny;
-- Further tuning the background.
+
+---
+
+## Compliment & Joke Generator - Part 4
+
+The instructor prompts the AI assistant to (1) properly link a favicon to the website; (2) create the project README.md file. The changes are committed and deployed to GitHub Pages.
 
 ---
 
