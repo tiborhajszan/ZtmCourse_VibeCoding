@@ -15,6 +15,13 @@ h2 {
   font-weight: bold;
   color: #CC0099;
 }
+h3 {
+  margin: 0 0 2px 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.4;
+}
 h4 {
   margin: 0 0 2px 0;
   padding: 0;
@@ -57,53 +64,48 @@ Act as an expert front-end web developer specializing in creating clean, efficie
 
 ### Task
 Generate the complete code for a responsive Compliment Generator web application. The application should consist of three separate files:
-1.  `index.html` for structure
-2.  `style.css` for styling
-3.  `script.js` for functionality
+- `index.html` for structure
+- `style.css` for styling
+- `script.js` for functionality
 
 ### Context
 The goal is to build a simple, visually appealing portfolio project. The user will see a compliment displayed on the screen and a button to generate a new one. The design should be modern, warm, and encouraging.
 
-### Core Functionality
-* A text area to display the compliment.
-* A button labeled "Get a New Compliment".
-* When the button is clicked, a new, random compliment from a predefined list should appear in the display area.
-* The compliments should be stored in a JavaScript array within `script.js`.
-* Include at least 10 sample compliments.
+#### Core Functionality
+- A text area to display the compliment.
+- A button labeled "Get a New Compliment".
+- When the button is clicked, a new, random compliment from a predefined list should appear in the display area.
+- The compliments should be stored in a JavaScript array within `script.js`.
+- Include at least 10 sample compliments.
 
-### Design Specifications
+#### Design > Layout
+- The main content (compliment display and button) should be centered both vertically and horizontally on the page.
+- The layout must be responsive and look great on both mobile and desktop screens.
 
-**Layout**
-* The main content (compliment display and button) should be centered both vertically and horizontally on the page.
-* The layout must be responsive and look great on both mobile and desktop screens.
+#### Design > Color Palette
+- **Background:** `#F8F9FA` (Light Gray)
+- **Primary Text:** `#212529` (Charcoal)
+- **Primary Accent (Button):** `#FF6B6B` (Living Coral)
+- **Secondary Accent (Button Hover):** `#FFD166` (Sunny Yellow)
 
-**Color Palette**
-* **Background:** `#F8F9FA` (Light Gray)
-* **Primary Text:** `#212529` (Charcoal)
-* **Primary Accent (Button):** `#FF6B6B` (Living Coral)
-* **Secondary Accent (Button Hover):** `#FFD166` (Sunny Yellow)
+#### Design > Google Fonts
+- **Compliment Text:** `Nunito`
+- **Button and UI Text:** `Lato`
 
-**Font Pairing (from Google Fonts)**
-* **Compliment Text:** `Nunito`
-* **Button & UI Text:** `Lato`
-
-**UI Details**
-* The main container holding the compliment and button should have a subtle box-shadow to give it depth.
-* The button should have a smooth color transition on hover.
+#### Design > UI Styling
+- The main container holding the compliment and button should have a subtle box-shadow to give it depth.
+- The button should have a smooth color transition on hover.
 
 ### Constraints
-* Do not use any front-end frameworks or libraries (e.g., React, Vue, jQuery, Bootstrap).
-* All code must be written in vanilla HTML, CSS, and JavaScript.
-* The code must be separated into three distinct files (`index.html`, `style.css`, `script.js`).
-* Ensure the HTML file correctly links to the CSS and JavaScript files.
-* The CSS should use Flexbox or Grid for centering and layout.
-* The code should be well-commented to explain the logic, especially in the JavaScript file.
+- Do not use any front-end frameworks or libraries (e.g., React, Vue, jQuery, Bootstrap).
+- All code must be written in vanilla HTML, CSS, and JavaScript.
+- The code must be separated into three distinct files (`index.html`, `style.css`, `script.js`).
+- Ensure the HTML file correctly links to the CSS and JavaScript files.
+- The CSS should use Flexbox or Grid for centering and layout.
+- The code should be well-commented to explain the logic, especially in the JavaScript file.
 
 ### Format
-Please provide the complete code for each of the three files. Use Markdown code blocks for each file and clearly label them with their respective filenames:
-* `index.html`
-* `style.css`
-* `script.js`
+Please provide the complete code for each of the three files. Use code blocks for each file and clearly label them with their respective filenames: `index.html`, `style.css`, `script.js`.
 
 ---
 
@@ -136,6 +138,12 @@ Please provide the complete code for each of the three files. Use Markdown code 
 ## Compliment & Joke Generator - Part 4
 
 The instructor prompts the AI assistant to (1) properly link a favicon to the website; (2) create the project README.md file. The changes are committed and deployed to GitHub Pages.
+
+---
+
+## Compliment & Joke Generator - Review
+
+During code review, the instructor (1) splits the project code into separate HTML, CSS, and JavaScript files; (2) renames the project; (3) further tunes the UI; (4) adds logic to prevent frequent comliment/joke repetitions.
 
 ---
 
