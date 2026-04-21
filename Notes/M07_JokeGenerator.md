@@ -1,61 +1,15 @@
-<style>
-h1 {
-  margin: 0 0 10px 0;
-  border-bottom: none;
-  padding: 0;
-  font-size: 24px;
-  font-weight: bold;
-  color: #ED7D31;
-}
-h2 {
-  margin: 0 0 10px 0;
-  border-bottom: none;
-  padding: 0;
-  font-size: 20px;
-  font-weight: bold;
-  color: #CC0099;
-}
-h3 {
-  margin: 0 0 2px 0;
-  padding: 0;
-  font-size: 16px;
-  font-weight: bold;
-  line-height: 1.4;
-}
-h4 {
-  margin: 0 0 2px 0;
-  padding: 0;
-  font-size: 14px;
-  font-weight: normal;
-  text-decoration: underline;
-  line-height: 1.4;
-}
-hr {
-  margin: 20px 0;
-}
-p {
-  margin: 0 0 10px 0;
-  padding: 0;
-  font-size: 14px;
-  line-height: 1.4;
-}
-a {
-  font-weight: bold;
-}
-</style>
-
-# The Vibe Coding Bootcamp: Become an AI-Augmented Developer
 # Module 07 | Compliment & Joke Generator (Gemini)
+
+<span style="color: #ED7D31;">My notes for **ZtM Academy | The Vibe Coding Bootcamp: Become an AI-Augmented Developer</span>**.
+
+### Project Description
+In this module, The instructor uses the **Gemini Chat Website** with the **Gemini 2.5 Pro LLM** to create a Compliment and Joke Generator webpage. On this interactive webpage, users can click buttons to select and display random compliments and jokes from a predefined collection. It is intended to be a portfolio project to showcase the front-end web development capabilities of learners.
 
 ---
 
 ## Compliment & Joke Generator - Prompt Creation
 
-The instructor works with the **Gemini 2.5 Pro LLM** and (1) prompts the AI assistant to define objectives, audience, features, and design for a compliment and joke generator website; (2) feeds this information to the AI assistant to write the actual prompt that generates code for the website.
-
-<a>[GitHub Repository > Complete project code by ZtM](https://github.com/JacintoDesign/compliment-joke-generator)</a>
-
----
+In this lesson, the instructor prompts the AI assistant to (1) define objectives, audience, features, and design for the project; and (2) write the actual prompt that generates the webpage code.
 
 ## Compliment & Joke Generator - Prompt
 
@@ -78,21 +32,21 @@ The goal is to build a simple, visually appealing portfolio project. The user wi
 - The compliments should be stored in a JavaScript array within `script.js`.
 - Include at least 10 sample compliments.
 
-#### Design > Layout
+#### Page Layout
 - The main content (compliment display and button) should be centered both vertically and horizontally on the page.
 - The layout must be responsive and look great on both mobile and desktop screens.
 
-#### Design > Color Palette
+#### Color Palette
 - **Background:** `#F8F9FA` (Light Gray)
 - **Primary Text:** `#212529` (Charcoal)
 - **Primary Accent (Button):** `#FF6B6B` (Living Coral)
 - **Secondary Accent (Button Hover):** `#FFD166` (Sunny Yellow)
 
-#### Design > Google Fonts
+#### Google Fonts
 - **Compliment Text:** `Nunito`
 - **Button and UI Text:** `Lato`
 
-#### Design > UI Styling
+#### Page Styling
 - The main container holding the compliment and button should have a subtle box-shadow to give it depth.
 - The button should have a smooth color transition on hover.
 
@@ -110,40 +64,15 @@ Please provide the complete code for each of the three files. Use code blocks fo
 ---
 
 ## Compliment & Joke Generator - Part 2
-
-#### Lesson Summary
-- Creating the project folder (local repository);
-- Generating the first draft of the website code;
-- Fixing the missing CSS bug by structuring all code into a single HTML file;
-- Increasing the number of compliments;
-- Redefining the dimensions of the compliments box;
-- Increasing the visual appeal of the website;
-- Creating the GitHub project repository;
-- Committing the current state of the website code;
-- Deploying the website to GitHub Pages.
-
----
-
 ## Compliment & Joke Generator - Part 3
-
-#### Lesson Summary
-- Reformatting the compliments box to look like a playing card;
-- Revising compliments to be more funny;
-- Moving the compliment generator button outside the compliments box;
-- Adding jokes and a joke generator button to the website;
-- Increasing the visual appeal of the background;
-
----
-
 ## Compliment & Joke Generator - Part 4
-
-The instructor prompts the AI assistant to (1) properly link a favicon to the website; (2) create the project README.md file. The changes are committed and deployed to GitHub Pages.
-
----
-
 ## Compliment & Joke Generator - Review
+## Compliment & Joke Generator - Feature Suggestions
 
-During code review, the instructor (1) splits the project code into separate HTML, CSS, and JavaScript files; (2) renames the project; (3) further tunes the UI; (4) adds logic to prevent frequent comliment/joke repetitions.
+In these series of lessons, the instructor (1) creates local and remote repositories for the project; (2) feeds the master prompt produced earlier into the AI assistant to generate the first draft of webpage code; (3) directs the AI assistant to perform a series of testing and refinement steps to fine-tune the webpage; (4) prompts the AI assistant to write the project README.md file; (5) commits and deploys the webpage to GitHub Pages.
+
+### [GitHub Repository](https://github.com/JacintoDesign/compliment-joke-generator)
+[Complete project code by ZtM.](https://github.com/JacintoDesign/compliment-joke-generator) 
 
 ---
 
