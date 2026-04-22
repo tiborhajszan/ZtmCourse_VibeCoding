@@ -1,17 +1,29 @@
 # Module 07 | Compliment & Joke Generator (Gemini)
 
-<span style="color: #ED7D31;">My notes for **ZtM Academy | The Vibe Coding Bootcamp: Become an AI-Augmented Developer</span>**.
+<span style="color: #ED7D31;">**ZtM Academy | The Vibe Coding Bootcamp: Become an AI-Augmented Developer</span>**
+
+#### Lessons
+- Compliment & Joke Generator - Prompt Creation
+- Compliment & Joke Generator - Prompt
+- Compliment & Joke Generator - Part 2
+- Compliment & Joke Generator - Part 3
+- Compliment & Joke Generator - Part 4
+- Compliment & Joke Generator - Review
+- Compliment & Joke Generator - Feature Suggestions
+- Implement a New Life System
+
+## Planning
 
 ### Project Description
-In this module, The instructor uses the **Gemini Chat Website** with the **Gemini 2.5 Pro LLM** to create a Compliment and Joke Generator webpage. On this interactive webpage, users can click buttons to select and display random compliments and jokes from a predefined collection. It is intended to be a portfolio project to showcase the front-end web development capabilities of learners.
+In this module, the instructor uses the **Gemini Chat Website** and the **Gemini 2.5 Pro LLM** to build a Compliment and Joke Generator webpage. On this interactive webpage, users can click buttons to select and display random compliments and jokes from a predefined collection. It is intended to be a portfolio project to showcase the front-end web development capabilities of learners.
 
----
+### Project Blueprint
+The instructor prompts the AI coding assistant to define objectives, audience, features, and design for the Compliment and Joke Generator project.
 
-## Compliment & Joke Generator - Prompt Creation
+### Prompt Creation
+The instructor directs the AI coding assistant to write the actual prompt that generates the code for the Compliment and Joke Generator webpage.
 
-In this lesson, the instructor prompts the AI assistant to (1) define objectives, audience, features, and design for the project; and (2) write the actual prompt that generates the webpage code.
-
-## Compliment & Joke Generator - Prompt
+## Prompt
 
 ### Role
 Act as an expert front-end web developer specializing in creating clean, efficient, and aesthetically pleasing user interfaces with vanilla HTML, CSS, and JavaScript.
@@ -61,21 +73,12 @@ The goal is to build a simple, visually appealing portfolio project. The user wi
 ### Format
 Please provide the complete code for each of the three files. Use code blocks for each file and clearly label them with their respective filenames: `index.html`, `style.css`, `script.js`.
 
----
+## Implementation
 
-## Compliment & Joke Generator - Part 2
-## Compliment & Joke Generator - Part 3
-## Compliment & Joke Generator - Part 4
-## Compliment & Joke Generator - Review
-## Compliment & Joke Generator - Feature Suggestions
+### Code Generation and Deployment
+The instructor (1) creates local and remote repositories for the project; (2) feeds the master prompt produced earlier into the AI coding assistant to generate the first draft of webpage code; (3) directs the AI coding assistant to perform iterative testing and refinement to fine-tune the webpage; (4) prompts the AI coding assistant to write the project README.md file; (5) commits the code to GitHub and deploys the webpage to GitHub Pages.
 
-In these series of lessons, the instructor (1) creates local and remote repositories for the project; (2) feeds the master prompt produced earlier into the AI assistant to generate the first draft of webpage code; (3) directs the AI assistant to perform a series of testing and refinement steps to fine-tune the webpage; (4) prompts the AI assistant to write the project README.md file; (5) commits and deploys the webpage to GitHub Pages.
-
-### [GitHub Repository](https://github.com/JacintoDesign/compliment-joke-generator)
-[Complete project code by ZtM.](https://github.com/JacintoDesign/compliment-joke-generator) 
+### <span style="color: dodgerblue;">Project Code</span>
+[GitHub Repository > Complete Project Code by ZtM](https://github.com/JacintoDesign/compliment-joke-generator)
 
 ---
-
-## Implement a New Life System
-
-*(Notes end here)*
