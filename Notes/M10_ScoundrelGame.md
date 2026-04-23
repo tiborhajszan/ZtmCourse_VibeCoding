@@ -11,13 +11,14 @@
 - Scoundrel Game - Tweaking Logic
 - Scoundrel Game - Fixing Mobile View, Deploying
 - Scoundrel Game - Review
+- Scoundrel Game - Feature Suggestions
 
 ## Implementation
 
 ### Code Generation and Deployment
-The instructor (1) directs the AI coding assistant to perform iterative testing and refinement to fine-tune the web application; (2) commits the code to GitHub and deploys the web application to Github Pages.
+The instructor (1) directs the AI coding assistant to iteratively refine the code and fine-tune the web application; (2) commits the code to GitHub and deploys the web application to Github Pages; (3) suggests a bunch of improvements that learners can implement on their own.
 
 ### [GitHub Repository > Scoundrel Game](https://github.com/JacintoDesign/scoundrel-game)  
-<span style="color: dodgerblue;">Complete project code by ZtM Academy.</span>
+<span style="color: #3c9dff;">Complete project code by ZtM Academy.</span>
 
 ---
