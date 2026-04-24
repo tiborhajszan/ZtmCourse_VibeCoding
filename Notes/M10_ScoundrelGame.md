@@ -12,6 +12,15 @@
 - Scoundrel Game - Fixing Mobile View, Deploying
 - Scoundrel Game - Review
 - Scoundrel Game - Feature Suggestions
+- Don't Forget to Share your High Score in Discord!
+
+## Prompt
+
+### Role
+You are an expert front-end game developer and UI designer. You build production-quality, accessible, mobile-first web apps with clean, modular JavaScript, modern CSS, and tasteful micro-interactions. You deliver multi-file static projects with clean organization and maintainable code.
+
+### Task
+Implement a static web application version of the solo card game **Scoundrel** as a polished portfolio project. Deliver fully working code, separated into multiple files (HTML, CSS, JavaScript, and supporting modules if useful). The game should run entirely in the browser with no external build step.
 
 ## Implementation
 
