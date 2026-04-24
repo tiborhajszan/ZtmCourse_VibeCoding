@@ -4,26 +4,23 @@
 
 #### Lessons
 - Palette Font Kit - Prompt
+- Palette Font Kit - Prompt Creation
+
+## Planning
+
+### Project Description
+In this module, the instructor uses the **ChatGPT Chat Website** and the **ChatGPT 5 Pro LLM** to build a Random Aesthetic Generator web application. This web application produces cohesive color palettes and font pairings and displays their previews. The presented designs can be shuffled, saved/loaded to/from favorites, and exported as CSS variables or JSON objects. It is intended to be a portfolio project to showcase the front-end web development capabilities of learners.
+
+### Project Blueprint and Prompt Creation
+The instructor prompts the AI coding assistant to define objectives, audience, features, and design for the Random Aesthetic Generator project. The instructor then directs the AI coding assistant to write the actual prompt (see below) that creates the code for the web application.
 
 ## Prompt (Under Construction)
 
-### Role
+### Role (>)
 You are an expert front-end engineer and UX designer. You write clean, accessible, production-ready HTML/CSS/JavaScript for static websites (no build tools, no frameworks). You anticipate edge cases, document decisions in comments, and keep the UI neutral so generated aesthetics are the focus.
 
-### Task
-Build a static **Random Aesthetic Generator** that produces cohesive color palettes and font pairings.
-
-#### Core Requirements
-- **Color Palette:** Generate a 4–6 color palette and display HEX values with copy-to-clipboard on click.
-- **Font Pairings:** Generate a heading/body font pairing using Google Fonts, load them dynamically, and render a live preview (h1 + paragraph + button sample).
-- **Global Shuffle:** Shuffle both colors and fonts with one action (button + keyboard shortcut).
-- **Persistence:** Let users Save/Favorite combinations (palette + fonts) to `localStorage`, list them, re-apply them, and delete them.
-- **Export Options:** Export the current combination as:
-    - **CSS variables** (copy block)
-    - **JSON** (download or copy)
-- **UX/UI:** Be responsive, accessible (WCAG AA contrast checks shown inline), and polished (subtle transitions).
-- **Theming:** Provide light/dark UI modes (toggle) without affecting generated colors or preview background (keep preview neutral).
-- **Initial State:** Start with 3 curated defaults — “Minimal”, “Playful”, and “Bold” — so the page doesn’t load empty.
+### Task (>)
+Build a static **Random Aesthetic Generator** that produces cohesive color palettes and font pairings. It must: (1) generate a 4–6 color palette and display HEX values with copy-to-clipboard on click; (2) generate a heading/body font pairing (from Google Fonts), load them dynamically, and render a live preview (H1 + paragraph + button sample); (3) shuffle both with one action (button + keyboard shortcut); (4) let users **Save/Favorite** combinations (palette + fonts) to `localStorage`, list them, re-apply them, and delete them; (5) export the current combination as: **CSS variables** (copy block), **JSON** (download or copy); (6) be **responsive**, **accessible** (WCAG AA contrast checks shown inline), and **polished** (subtle transitions); (7) provide **light/dark UI modes** (toggle) without affecting generated colors or preview background (keep preview neutral); (8) start with 3 curated defaults — “Minimal”, “Playful”, and “Bold” — so the page doesn’t load empty.
 
 ### Context
 - **Primary audience:** Hiring managers and recruiters evaluating polish and range.
