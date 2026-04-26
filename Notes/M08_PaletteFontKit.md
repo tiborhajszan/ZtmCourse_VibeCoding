@@ -5,11 +5,12 @@
 #### Lessons
 - Palette Font Kit - Prompt
 - Palette Font Kit - Prompt Creation
+- Palette Font Kit - Part 2
 
 ## Planning
 
 ### Project Description
-In this module, the instructor uses the **ChatGPT Chat Website** and the **ChatGPT 5 Pro LLM** to build a Random Aesthetic Generator web application. This web application produces cohesive color palettes and font pairings and displays their previews. The presented designs can be shuffled, saved/loaded to/from favorites, and exported as CSS variables or JSON objects. It is intended to be a portfolio project to showcase the front-end web development capabilities of learners.
+The instructor uses the **ChatGPT Chat Website** and the **ChatGPT 5 Pro LLM** to build a Random Aesthetic Generator web application. This web application produces cohesive color palettes and font pairings and displays their previews. The presented designs can be shuffled, saved/loaded to/from favorites, and exported as CSS variables or JSON objects. It is intended to be a portfolio project to showcase the front-end web development capabilities of learners.
 
 ### Project Blueprint and Prompt Creation
 The instructor prompts the AI coding assistant to define objectives, audience, features, and design for the Random Aesthetic Generator project. The instructor then directs the AI coding assistant to write the actual prompt (see below) that creates the code for the web application.
@@ -22,24 +23,15 @@ You are an expert front-end engineer and UX designer. You write clean, accessibl
 ### Task (>)
 Build a static **Random Aesthetic Generator** that produces cohesive color palettes and font pairings. It must: (1) generate a 4–6 color palette and display HEX values with copy-to-clipboard on click; (2) generate a heading/body font pairing (from Google Fonts), load them dynamically, and render a live preview (H1 + paragraph + button sample); (3) shuffle both with one action (button + keyboard shortcut); (4) let users **Save/Favorite** combinations (palette + fonts) to `localStorage`, list them, re-apply them, and delete them; (5) export the current combination as: **CSS variables** (copy block), **JSON** (download or copy); (6) be **responsive**, **accessible** (WCAG AA contrast checks shown inline), and **polished** (subtle transitions); (7) provide **light/dark UI modes** (toggle) without affecting generated colors or preview background (keep preview neutral); (8) start with 3 curated defaults — “Minimal”, “Playful”, and “Bold” — so the page doesn’t load empty.
 
-### Context
-- **Primary audience:** Hiring managers and recruiters evaluating polish and range.
-- **Secondary audience:** Designers and developers who may actually use the tool.
+### Context (>)
+**Primary audience**: hiring managers and recruiters evaluating polish and range.  
+**Secondary audience**: designers and developers who may actually use the tool.
 
-#### User Interface Design
-- **Neutral background:**
-    - Light: `#f9fafb`
-    - Dark: `#1e1e1e`
-- **Accent:** Indigo (`#6366f1`) for controls.
-- **Layout:** Card-based layout, generous spacing, rounded corners, soft shadow.
-- **UI Fonts:** Inter (headings) + Source Sans 3 or Roboto (body) for the app shell only.
+#### Design System for the UI Chrome (not the generated output)
+(-) Neutral background: light `#f9fafb`, dark `#1e1e1e`, one accent (e.g., **indigo** `#6366f1`) for controls; (-) **card-based layout**, generous spacing, rounded corners, soft shadow; (-) **UI fonts**: Inter (headings) + Source Sans 3 or Roboto (body) for the app shell only.
 
 #### Generated Preview
-- **Typography:** Shows the chosen pairing applied to a headline, subhead, paragraph, and sample button.
-- **Palette:** Swatches displayed in a row (or wrapped on mobile) with HEX labels and copy affordances.
-- **Contrast Checker:**
-    - For each swatch, compute contrast ratio vs. white and vs. black.
-    - Mark pass/fail badges for **AA normal text** (WCAG 2.1).
+(-) Shows the chosen pairing applied to a **headline**, **subhead**, **paragraph**, and **sample button**; (-) palette swatches displayed in a **row (or wrapped on mobile)** with HEX labels and copy affordances; (-) **contrast checker**: for each swatch, compute contrast ratio vs. white and vs. black, mark pass/fail badges for **AA normal text (WCAG 2.1)**.
 
 ### Engineering Notes
 - **Static only:** No server/build steps. Use client-side JS and Google Fonts CSS (inject `<link>` for selected families & weights).
@@ -120,7 +112,10 @@ Return **exactly three code blocks** representing files:
 - [ ] Dark/light toggle persists across reloads.
 - [ ] Helpful inline comments included.
 
-## Subtitle
+## Implementation
+
+### Code Generation and Deployment
+The instructor (1) creates local and remote repositories for the project; (2) feeds the master prompt produced earlier into the AI coding assistant to generate the first draft of web application code.
 
 ## Subtitle
 
