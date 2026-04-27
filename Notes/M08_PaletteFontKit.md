@@ -6,6 +6,7 @@
 - Palette Font Kit - Prompt
 - Palette Font Kit - Prompt Creation
 - Palette Font Kit - Part 2
+- Palette Font Kit - Part 3
 
 ## Planning
 
@@ -33,18 +34,13 @@ Build a static **Random Aesthetic Generator** that produces cohesive color palet
 #### Generated Preview
 (-) Shows the chosen pairing applied to a **headline**, **subhead**, **paragraph**, and **sample button**; (-) palette swatches displayed in a **row (or wrapped on mobile)** with HEX labels and copy affordances; (-) **contrast checker**: for each swatch, compute contrast ratio vs. white and vs. black, mark pass/fail badges for **AA normal text (WCAG 2.1)**.
 
-### Engineering Notes
-- **Static only:** No server/build steps. Use client-side JS and Google Fonts CSS (inject `<link>` for selected families & weights).
-- **Font Selection:** Keep a small curated list of Google Fonts (10–20 families) with known good pairings; randomize from that set to ensure quality.
-- **Keyboard Shortcuts:**
-    - `Space`: Shuffle
-    - `S`: Save current
-    - `C`: Copy CSS variables
-- **LocalStorage Keys:**
-    - `aesthetic.favorites` (array)
-    - `aesthetic.settings` (theme preference)
-- **Animations:** Fade/slide of swatches and preview (150–250ms), respect `prefers-reduced-motion`.
-- **Utilities:** Use `navigator.clipboard.writeText` with fallbacks.
+#### Engineering Notes
+- **Static only (no server):** use client-side JS and Google Fonts CSS (inject `<link>` for selected families & weights);
+- **Keep a small curated list of Google Fonts** (10–20 families) with known good pairings, randomize from that set to ensure quality;
+- **Keyboard shortcuts:** `Space` = Shuffle, `S` = Save current, `C` = Copy CSS variables;
+- **LocalStorage keys:** `aesthetic.favorites` (array), `aesthetic.settings` (theme preference);
+- **Animations:** fade/slide of swatches and preview, 150–250ms, `prefers-reduced-motion` respected;
+- **Copy utilities:** use `navigator.clipboard.writeText` with fallbacks.
 
 ### Constraints
 
@@ -115,7 +111,7 @@ Return **exactly three code blocks** representing files:
 ## Implementation
 
 ### Code Generation and Deployment
-The instructor (1) creates local and remote repositories for the project; (2) feeds the master prompt produced earlier into the AI coding assistant to generate the first draft of web application code.
+The instructor (1) creates local and remote repositories for the project; (2) feeds the master prompt produced earlier into the AI coding assistant to generate the first draft of web application code; (3) directs the AI coding assistant to perform iterative testing and refinement to fine-tune the web application;
 
 ## Subtitle
 
