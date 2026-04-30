@@ -9,6 +9,7 @@
 - Palette Font Kit - Part 3
 - Palette Font Kit - Part 4
 - Palette Font Kit - Review
+- Palette Font Kit - Feature Suggestions
 
 ## Planning
 
@@ -18,12 +19,12 @@ The instructor uses the **ChatGPT Chat Website** and the **ChatGPT 5 Pro LLM** t
 ### Project Blueprint and Prompt Creation
 The instructor prompts the AI coding assistant to define objectives, audience, features, and design for the Random Aesthetic Generator project. The instructor then directs the AI coding assistant to write the actual prompt (see below) that creates the code for the web application.
 
-## Prompt (Under Construction)
+## Prompt
 
-### Role (>)
+### Role
 You are an expert front-end engineer and UX designer. You write clean, accessible, production-ready HTML/CSS/JavaScript for static websites (no build tools, no frameworks). You anticipate edge cases, document decisions in comments, and keep the UI neutral so generated aesthetics are the focus.
 
-### Task (>)
+### Task
 Build a static **Random Aesthetic Generator** that produces cohesive color palettes and font pairings.
 
 #### It must:
@@ -36,7 +37,7 @@ Build a static **Random Aesthetic Generator** that produces cohesive color palet
 - Provide **light/dark UI modes** (toggle) without affecting generated colors or preview background (keep preview neutral).
 - Start with **3 curated defaults** — “Minimal”, “Playful”, and “Bold” — so the page doesn’t load empty.
 
-### Context (>)
+### Context
 - **Primary audience**: hiring managers and recruiters evaluating polish and range.  
 - **Secondary audience**: designers and developers who may actually use the tool.
 
@@ -58,7 +59,7 @@ Build a static **Random Aesthetic Generator** that produces cohesive color palet
 - **Animations:** fade/slide of swatches and preview, 150–250ms, `prefers-reduced-motion` respected
 - **Copy utilities:** use `navigator.clipboard.writeText` with fallbacks
 
-### Constraints (>)
+### Constraints
 
 #### Delivery
 - Deliver a **pure static solution:** one `index.html` with embedded `<style>` and `<script>`
@@ -82,7 +83,7 @@ Build a static **Random Aesthetic Generator** that produces cohesive color palet
 - The **app shell must never override or normalize** the generated palette or preview beyond layout
 - The **generated results are the focus**
 
-### Format (>)
+### Format
 Return **exactly three code blocks** representing files:
 
 #### index.html
@@ -113,22 +114,29 @@ Return **exactly three code blocks** representing files:
   <li>Dynamic Google Fonts link injection</li>
 </ul>
 
-### Acceptance Criteria
-- [ ] Page loads with “Minimal” default applied.
-- [ ] Shuffle works for both fonts and palette simultaneously.
-- [ ] Copying a swatch copies its HEX value.
-- [ ] Copy CSS copies `--color-1..n` vars and font families.
-- [ ] Export JSON provides a valid schema.
-- [ ] Saving adds to Favorites; re-apply and delete functions work.
-- [ ] Contrast badges correctly show AA pass/fail vs. white and black.
-- [ ] Fully responsive and keyboard accessible.
-- [ ] Dark/light toggle persists across reloads.
-- [ ] Helpful inline comments included.
+### Acceptance Criteria (must pass on first render)
+- Page loads with "**Minimal**" default applied
+- **Shuffle** works (fonts + palette change together)
+- Copying a swatch copies its HEX
+- **Copy CSS** copies `--color-1..n` vars and font families
+- **Export JSON** provides a valid object:
+<br><br>
+```
+{ "palette": [...], "fonts": { "heading": "...", "body": "..." } }
+```
+- **Saving** adds to Favorites; clicking a favorite re-applies it; **delete** works
+- Contrast badges correctly show **AA pass/fail vs. white and black** for each swatch
+- Fully responsive down to **320px**
+- Keyboard shortcuts and tab navigation work
+- **Dark/light toggle** persists across reloads
+
+### Additional Note
+Include **helpful inline comments** explaining non-obvious logic and any trade-offs.
 
 ## Implementation
 
 ### Code Generation and Deployment
-The instructor (1) creates local and remote repositories for the project; (2) feeds the master prompt produced earlier into the AI coding assistant to generate the first draft of web application code; (3) directs the AI coding assistant to perform iterative testing and refinement to fine-tune the web application; (4) prompts the AI coding assistant to write the project README.md file; (5) commits the code to GitHub and deploys the webpage to GitHub Pages.
+The instructor (1) creates local and remote repositories for the project; (2) feeds the master prompt produced earlier into the AI coding assistant to generate the first draft of web application code; (3) directs the AI coding assistant to perform iterative testing and refinement to fine-tune the web application; (4) prompts the AI coding assistant to write the project README.md file; (5) commits the code to GitHub and deploys the web application to GitHub Pages; (6) suggests a bunch of improvements that learners can implement on their own.
 
 ### [GitHub Repository > Palette and Font Kit](https://github.com/JacintoDesign/palette-font-kit)  
 <span style="color: #3c9dff;">Complete project code by ZtM Academy.</span>
